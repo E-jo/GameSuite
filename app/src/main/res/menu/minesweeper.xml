@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_hang"
+        android:title="Hangman" />
+    <item
+        android:id="@+id/menu_c4"
+        android:title="Connect Four" />
+    <item
+        android:id="@+id/menu_simon"
+        android:title="Simon Says" />
+    <item
+        android:id="@+id/menu_settings"
+        android:title="Settings" />
+    <item
+        android:id="@+id/menu_about"
+        android:title="About" />
+</menu>

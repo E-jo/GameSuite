@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="pref_hangman_category"
+        android:title="Hangman" >
+        <ListPreference
+            android:key="pref_hangman_difficulty"
+            android:title="Difficulty"
+            android:summary="Select difficulty of the word list used."
+            android:dialogTitle="Difficulty"
+            android:entries="@array/difficulty_keys"
+            android:entryValues="@array/difficulty_values"
+            android:defaultValue="@string/difficulty_default" />
+        <ListPreference
+            android:key="pref_hangman_min"
+            android:title="Minimum"
+            android:summary="Select minimum word length."
+            android:dialogTitle="Minimum Word Length"
+            android:entries="@array/min_max_values"
+            android:entryValues="@array/min_max_values"
+            android:defaultValue="@string/min_default" />
+        <ListPreference
+            android:key="pref_hangman_max"
+            android:title="Maximum"
+            android:summary="Select maximum word length."
+            android:dialogTitle="Maximum Word Length"
+            android:entries="@array/min_max_values"
+            android:entryValues="@array/min_max_values"
+            android:defaultValue="@string/max_default" />
+        <ListPreference
+            android:key="pref_hangman_mask"
+            android:title="Mask"
+            android:summary="Select masking character."
+            android:dialogTitle="Masking Character"
+            android:entries="@array/mask_values"
+            android:entryValues="@array/mask_values"
+            android:defaultValue="@string/mask_default" />
+        <CheckBoxPreference
+            android:key="pref_hangman_hyphens"
+            android:title="Hyphenated Words"
+            android:summary="Include hyphenated words and phrases (hyphen will be given)."
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:key="pref_hangman_dictionary"
+            android:title="Dictionary Mode"
+            android:summary="Attempt to retrieve word definition after each round (requires internet connection)."
+            android:defaultValue="true" />
+        <CheckBoxPreference
+            android:key="pref_hangman_hide"
+            android:title="Auto-Hide Soft Keyboard"
+            android:summary="Automatically bring down the soft keyboard after each letter entry (recommended for playing in landscape orientation)."
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_c4_category"
+        android:title="Connect Four" >
+        <ListPreference
+            android:key="pref_c4_speed"
+            android:title="Speed"
+            android:summary="Select speed of piece drop."
+            android:dialogTitle="Drop Speed"
+            android:entries="@array/c4_speed_keys"
+            android:entryValues="@array/c4_speed_values"
+            android:defaultValue="@string/c4_speed_default" />
+        <CheckBoxPreference
+            android:key="pref_c4_sound"
+            android:title="Sound"
+            android:summary="Play sound effects."
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="pref_ss_category"
+        android:title="Simon Says" >
+        <ListPreference
+            android:key="pref_ss_speed"
+            android:title="Speed"
+            android:summary="Select sequence generation speed."
+            android:dialogTitle="Sequence Speed"
+            android:entries="@array/ss_speed_keys"
+            android:entryValues="@array/ss_speed_values"
+            android:defaultValue="@string/ss_speed_default" />
+        <CheckBoxPreference
+            android:key="pref_ss_sound"
+            android:title="Sound"
+            android:summary="Play tones."
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

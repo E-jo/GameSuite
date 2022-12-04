@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="About GameSuite"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewHangman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="24dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="Hangman: The classic game as you remember it, complete with crude pen-and-paper drawings. Select a wordlist from among three difficulties, then choose your minimum and maximum word length. Stylize your game with a custom masking character." />
+
+    <TextView
+        android:id="@+id/textViewC4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="24dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="Connect Four: The classic game as you remember it. Two players (red and yellow) take turns dropping their tokens into slots at the top of the grid.  Connect four in any direction to win."/>
+
+    <TextView
+        android:id="@+id/textViewSS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="24dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="Simon Says: The classic game as you remember it. To begin, press the Generate button to get a sequence. Attempt to duplicate it and finalize your response with the Enter button. Tones range (A, C, D, E) and correspond to (Yellow, Blue, Green, Red)" />
+
+</LinearLayout>

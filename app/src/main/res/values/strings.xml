@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">GameSuite</string>
+    <string-array name="ss_speed_keys">
+        <item>Insane</item>
+        <item>Faster</item>
+        <item>Fast</item>
+        <item>Medium</item>
+        <item>Slow</item>
+    </string-array>
+    <string-array name="c4_speed_keys">
+        <item>Instant</item>
+        <item>Faster</item>
+        <item>Fast</item>
+        <item>Medium</item>
+        <item>Slow</item>
+    </string-array>
+    <string-array name="ss_speed_values">
+        <item>100</item>
+        <item>250</item>
+        <item>500</item>
+        <item>750</item>
+        <item>1000</item>
+    </string-array>
+    <string-array name="c4_speed_values">
+        <item>0</item>
+        <item>50</item>
+        <item>75</item>
+        <item>125</item>
+        <item>175</item>
+    </string-array>
+    <string-array name="mask_values">
+        <item>"*"</item>
+        <item>"#"</item>
+        <item>"^"</item>
+        <item>"~"</item>
+        <item>"?"</item>
+        <item>"."</item>
+        <item>\u25CF</item>
+        <item>\u00A4</item>
+        <item>\u25A0</item>
+        <item>\u25A1</item>
+        <item>\u2605</item>
+    </string-array>
+    <string-array name="min_max_values">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+    <string-array name="difficulty_keys">
+        <item>"3,000 Commonly Used Words"</item>
+        <item>"41,000 Common Words"</item>
+        <item>"82,000 Words"</item>
+    </string-array>
+    <string-array name="difficulty_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string name="difficulty_default">1</string>
+    <string name="ss_speed_default">1000</string>
+    <string name="c4_speed_default">75</string>
+    <string name="mask_default">\u2605</string>
+    <string name="min_default">3</string>
+    <string name="max_default">16</string>
+</resources>
