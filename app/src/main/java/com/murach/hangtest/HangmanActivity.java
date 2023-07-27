@@ -141,9 +141,6 @@ public class HangmanActivity extends AppCompatActivity
         wordList.clear();
         String filename;
         switch (difficulty) {
-            case 1:
-                filename = "easy.txt";
-                break;
             case 2:
                 filename = "medium.txt";
                 break;
